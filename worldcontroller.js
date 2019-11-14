@@ -564,7 +564,7 @@ power.add( light );
 }
 
 function engInit2() {
-  let engineText = new THREE.SpriteSheetTexture('/assets/engineCharge-miny.png', 8, 4, 18, 32,true);
+  let engineText = new THREE.SpriteSheetTexture('./assets/engineCharge-miny.png', 8, 4, 18, 32,true);
   let engineMat = new THREE.SpriteMaterial( {map:engineText});
   // var material = new THREE.MeshBasicMaterial( {color: 0xffff00, side: THREE.DoubleSide} );
    let enginePlane = new THREE.Sprite(engineMat);
